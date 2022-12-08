@@ -1,0 +1,1335 @@
+/*used clip path ,transform, position and animation */
+
+*{
+    /* margin:0; */
+    box-sizing: border-box;
+    /* padding: 0; */
+}
+
+body{
+    background: linear-gradient(to bottom right, white, rgb(54, 231, 231),white,rgb(54, 231, 231),white);
+    /* margin: 0 auto */
+    /* height: 100%; */
+    /* background: greenyellow; */
+}
+.sky-container{
+    /* background: blueviolet; */
+    height: 100vh;
+    width: 100%; 
+    display: flex; 
+    /* flex-direction: column; */
+    position: relative;
+    margin: 0 auto;
+
+}
+.sky{
+    /* display: flex; */
+    width: 30%;
+    height: 15%;
+    background: rgb(180, 15, 15);
+    border: 3px rgb(2, 19, 2) solid;
+    margin: 5px;
+    position: absolute;
+    /* width: ; */
+
+}
+@media only screen and (max-width: 35em){
+    .sky1{
+        background: wheat;
+        right: 0.1em;
+    
+    }
+    
+    .sky2{
+        background: orangered;
+        right: 3em;
+        top: 8.5em
+    
+    }
+    
+    
+    .sky3{
+        background: pink;
+        right: 10em;
+        left: 10em;
+        top: 30em;
+    
+    }
+    
+    .sky4{
+        background: rgb(181, 49, 178);
+        left: 2em;
+        top: 19em;
+    
+    }
+    
+    .sky5{
+        background: rgb(216, 203, 216);
+        right: 2em;
+        top: 19em;
+    
+    }
+    
+    .sky6{
+        background: yellow;
+        left: 3em;
+        top:8.5em
+    
+    }
+    
+    .sky7{
+        left: 0.1em;
+        background: rgb(95, 158, 22);
+
+    
+    }
+
+    /*sky*/
+    .sk1,.sk2,.sk3{
+        width:100%;
+        height:50%;
+        transform: scale(1.3);
+    }
+
+.sk1{
+    position: absolute;
+    left: 2.1em;
+    background: rgb(193, 209, 193);
+
+
+}
+
+.sk2{
+    position: absolute;
+    left: 0.8em;
+    background: rgb(139, 156, 12);
+
+
+}
+
+.sk3{
+    position: absolute;
+    right: 0.6em;
+    background: green;
+
+}
+
+
+/*absoulte position of rain to its container*/
+.rain{
+    /* transform: scale(0.5); */
+    width: 150px;
+    position: absolute;
+    /* height: 100px; */
+    margin-top: 1px;
+    
+    
+}
+
+.rain1, .rain2, .rain5{
+    background: rgb(235, 233, 238);
+    /* right: 0.1em; */
+    z-index: 9999;
+    right: -1em
+
+}
+
+.rain4, .rain6, .rain7{
+    background: rgb(235, 233, 238);
+    /* right: 0.1em; */
+    z-index: 9999;
+    left: -1em
+
+}
+
+
+/* 3drops for each 7skies*/
+.rain11{
+    top: -1em;
+
+
+}
+.rain12{
+    top: 8em;
+
+
+}
+.rain13{
+    top: 15em;
+
+
+}
+
+.rain2{
+    background: orangered;
+
+}
+
+
+
+.rain3{
+    background: pink;   
+    right:8.5em;
+
+}
+
+
+.rain4{
+    background: green;
+    /* left: 10em; */
+
+}
+
+.rain5{
+    background: purple;
+    /* right: 10em; */
+
+}
+
+.rain6{
+    background: yellow;
+    /* left: 5em; */
+
+}
+
+.rain7{
+    background: salmon;
+    /* left: 0.1em; */
+
+}
+
+
+
+
+.sky1{
+    /* background: wheat; */
+    right: 0.1em;
+
+}
+
+.sky2{
+    /* background: orangered; */
+    right: 5em;
+    top: 8.5em
+
+}
+
+.sky3{
+    /* background: pink; */
+    right: 35%;
+
+    top: 30em;
+
+}
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 35.1em) and (max-width: 53em){
+
+    
+    .sky1{
+        background: wheat;
+        right: 0.1em;
+    
+    }
+    
+    .sky2{
+        background: rgb(193, 184, 181);
+        right: 3em;
+        top: 8.5em
+    
+    }
+    
+    
+    .sky3{
+        background: pink;
+        left: 15em;
+        top: 30em;
+    
+    }
+    
+    .sky4{
+        background: rgb(179, 76, 175);
+        left: 2em;
+        top: 19em;
+    
+    }
+    
+    .sky5{
+        background: rgb(216, 203, 216);
+        right: 2em;
+        top: 19em;
+    
+    }
+    
+    .sky6{
+        background: yellow;
+        left: 3em;
+        top:8.5em
+    
+    }
+    
+    .sky7{
+        left: 0.1em;
+        background: rgb(95, 158, 22);
+
+    
+    }
+
+    /*sky*/
+    .sk1,.sk2,.sk3{
+        width:100%;
+        height:70%;
+        transform: scale(1.3);
+    }
+
+.sk1{
+    position: absolute;
+    left: 2.1em;
+    background: rgb(193, 209, 193);
+
+
+}
+
+.sk2{
+    position: absolute;
+    left: 0.8em;
+    background: rgb(139, 156, 12);
+
+
+}
+
+.sk3{
+    position: absolute;
+    right: 0.6em;
+    background: green;
+
+}
+
+
+/*absoulte position of rain to its container*/
+.rain{
+    /* transform: scale(0.5); */
+    width: 150px;
+    position: absolute;
+    /* height: 100px; */
+    margin-top: 1px;
+    
+    
+}
+
+.rain1, .rain2, .rain5{
+    background: rgb(235, 233, 238);
+    /* right: 0.1em; */
+    z-index: 9999;
+    left: 2em
+
+}
+
+.rain4, .rain6, .rain7{
+    background: rgb(235, 233, 238);
+    /* right: 0.1em; */
+    z-index: 9999;
+    right: 1em
+
+}
+
+
+/* 3drops for each 7skies*/
+.rain11{
+    top: 0.5em;
+
+
+}
+.rain12{
+    top: 8em;
+
+
+}
+.rain13{
+    top: 15em;
+
+
+}
+
+.rain2{
+    background: orangered;
+
+}
+
+
+
+.rain3{
+    background: pink;   
+    left:2em;
+
+}
+
+
+.rain4{
+    background: green;
+    /* left: 10em; */
+
+}
+
+.rain5{
+    background: purple;
+    /* right: 10em; */
+
+}
+
+.rain6{
+    background: yellow;
+    /* left: 5em; */
+
+}
+
+.rain7{
+    background: salmon;
+    /* left: 0.1em; */
+
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 53.1em) and (max-width: 63em){
+
+
+    .sky1{
+        background: wheat;
+        right: 0.1em;
+    
+    }
+    
+    .sky2{
+        background: orangered;
+        right: 3em;
+        top: 8.5em
+    
+    }
+    
+    .sky3{
+        background: rgb(224, 45, 81);
+        left: 19em;
+        top: 30em;
+    
+    }
+    
+    .sky4{
+        background: rgb(179, 76, 175);
+        left: 2em;
+        top: 19em;
+    
+    }
+    
+    .sky5{
+        background: rgb(216, 203, 216);
+        right: 2em;
+        top: 19em;
+    
+    }
+    
+    .sky6{
+        background: yellow;
+        left: 3em;
+        top:8.5em
+    
+    }
+    
+    .sky7{
+        left: 0.1em;
+        background: rgb(95, 158, 22);
+
+    
+    }
+
+    /*sky*/
+    .sk1,.sk2,.sk3{
+        width:100%;
+        height:70%;
+        transform: scale(1.3);
+    }
+
+.sk1{
+    position: absolute;
+    left: 2.1em;
+    background: rgb(193, 209, 193);
+
+
+}
+
+.sk2{
+    position: absolute;
+    left: 0.8em;
+    background: rgb(139, 156, 12);
+
+
+}
+
+.sk3{
+    position: absolute;
+    right: 0.6em;
+    background: green;
+
+}
+
+
+/*absoulte position of rain to its container*/
+.rain{
+    /* transform: scale(0.5); */
+    width: 150px;
+    position: absolute;
+    /* height: 100px; */
+    margin-top: 1px;
+    
+    
+}
+
+.rain1, .rain2, .rain5{
+    background: rgb(235, 233, 238);
+    /* right: 0.1em; */
+    z-index: 9999;
+    right: 3em
+
+}
+
+.rain4, .rain6, .rain7{
+    background: rgb(235, 233, 238);
+    /* right: 0.1em; */
+    z-index: 9999;
+    left: 3em
+
+}
+
+
+/* 3drops for each 7skies*/
+.rain11{
+    top: 0.5em;
+
+
+}
+.rain12{
+    top: 8em;
+
+
+}
+.rain13{
+    top: 15em;
+
+
+}
+
+.rain2{
+    background: orangered;
+
+}
+
+
+
+.rain3{
+    background: pink;   
+    right:2.5em;
+
+}
+
+
+.rain4{
+    background: green;
+    /* left: 10em; */
+
+}
+
+.rain5{
+    background: purple;
+    /* right: 10em; */
+
+}
+
+.rain6{
+    background: yellow;
+    /* left: 5em; */
+
+}
+
+.rain7{
+    background: salmon;
+    /* left: 0.1em; */
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 63.1em) and (max-width: 79.125em){
+
+
+
+.sky1{
+    background: wheat;
+    right: 0.1em;
+
+}
+
+.sky2{
+    background: orangered;
+    right: 5em;
+    top: 8.5em
+
+}
+
+.sky3{
+    background: pink;
+    right: 20em;
+    top: 30em;
+
+}
+
+.sky4{
+    background: green;
+    left: 10em;
+    top: 19em
+
+}
+
+.sky5{
+    background: purple;
+    right: 10em;
+    top: 19em;
+
+}
+
+.sky6{
+    background: yellow;
+    left: 5em;
+    top:8.5em
+
+}
+
+.sky7{
+    left: 0.1em;
+
+}
+/*sky*/
+
+.sk1,.sk2,.sk3{
+    width:100%;
+    height:70%;
+    transform: scale(1.3);
+}
+
+
+.sk1{
+    position: absolute;
+    left: 1em;
+
+}
+
+.sk2{
+    position: absolute;
+    right: 3.8em;
+
+}
+
+.sk3{
+    position: absolute;
+    right: 1.8em;
+
+}
+
+
+/*absoulte position of rain to its container*/
+.rain{
+    /* transform: scale(0.5); */
+    width: 150px;
+    position: absolute;
+    /* height: 100px; */
+    margin-top: 1px;
+    
+    
+}
+
+.rain1, .rain2, .rain5{
+    background: rgb(235, 233, 238);
+    /* right: 0.1em; */
+    z-index: 9999;
+    right: 7em
+
+}
+
+.rain4, .rain6, .rain7{
+    background: rgb(235, 233, 238);
+    /* right: 0.1em; */
+    z-index: 9999;
+    left: 2em
+
+}
+
+
+/* 3drops for each 7skies*/
+.rain11{
+    top: 0.5em;
+
+
+}
+.rain12{
+    top: 8em;
+
+
+}
+.rain13{
+    top: 15em;
+
+
+}
+
+.rain2{
+    background: orangered;
+
+}
+
+
+
+.rain3{
+    /* background: pink;    */
+    right:6.5em;
+
+}
+
+
+.rain4{
+    background: green;
+    /* left: 10em; */
+
+}
+
+.rain5{
+    background: purple;
+    /* right: 10em; */
+
+}
+
+.rain6{
+    background: yellow;
+    /* left: 5em; */
+
+}
+
+.rain7{
+    background: salmon;
+    /* left: 0.1em; */
+
+}
+
+
+
+
+.sky1{
+    /* background: wheat; */
+    right: 0.1em;
+
+}
+
+.sky2{
+    /* background: orangered; */
+    right: 5em;
+    top: 8.5em
+
+}
+
+.sky3{
+    /* background: rgb(231, 168, 178); */
+    right: 35%;
+
+    top: 30em;
+
+}
+
+
+
+}
+
+@media only screen and (min-width: 79.126em){
+
+    /*absoulte position of rain to its container*/
+    .rain{
+        /* transform: scale(0.5); */
+        width: 150px;
+        position: absolute;
+        /* height: 100px; */
+        margin-top: 1px;
+        
+        
+    }
+
+    .rain1, .rain2, .rain5{
+        background: rgb(235, 233, 238);
+        /* right: 0.1em; */
+        z-index: 9999;
+        right: 11em
+    
+    }
+
+    .rain4, .rain6, .rain7{
+        background: rgb(235, 233, 238);
+        /* right: 0.1em; */
+        z-index: 9999;
+        left: 6em
+    
+    }
+
+    
+/* 3drops for each 7skies*/
+    .rain11{
+        top: 3.5em;
+
+
+    }
+    .rain12{
+        top: 8em;
+
+
+    }
+    .rain13{
+        top: 15em;
+
+
+    }
+    
+    .rain2{
+        background: orangered;
+    
+    }
+
+    
+    
+    .rain3{
+        background: pink;   
+        right:8.5em;
+    
+    }
+
+    
+    .rain4{
+        background: green;
+        /* left: 10em; */
+    
+    }
+    
+    .rain5{
+        background: purple;
+        /* right: 10em; */
+    
+    }
+    
+    .rain6{
+        background: yellow;
+        /* left: 5em; */
+    
+    }
+    
+    .rain7{
+        background: salmon;
+        /* left: 0.1em; */
+    
+    }
+    
+
+
+
+    .sky1{
+        background: wheat;
+        right: 0.1em;
+    
+    }
+    
+    .sky2{
+        background: orangered;
+        right: 5em;
+        top: 8.5em
+    
+    }
+    
+    .sky3{
+        background: pink;
+        right: 35%;
+
+        top: 30em;
+    
+    }
+
+    
+    
+    .sky4{
+        background: green;
+        left: 10em;
+        top: 19em
+    
+    }
+    
+    .sky5{
+        background: purple;
+        right: 10em;
+        top: 19em;
+    
+    }
+    
+    .sky6{
+        background: yellow;
+        left: 5em;
+        top:8.5em;
+    
+    }
+    
+    .sky7{
+        left: 0.1em;
+    
+    }
+    /*sky*/
+    .sk1,.sk2,.sk3{
+        width:100%;
+        height:70%;
+        transform: scale(1);
+        top: 15px
+    }
+    
+    .sk1{
+        position: absolute;
+        left: 1em;
+    
+    }
+    
+    .sk2{
+        position: absolute;
+        right: 3.8em;
+    
+    }
+    
+    .sk3{
+        position: absolute;
+        right: 1.8em;
+    
+    }
+    
+    }
+
+/*----------sky in general ----------*/
+    .sk1,.sk2,.sk3{
+        /* clip-path: polygon(62% 44%, 65% 41%, 70% 38%, 75% 38%, 81% 41%, 84% 47%, 84% 54%, 80% 57%, 73% 58%, 65% 57%, 61% 52%, 59% 56%, 56% 58%, 50% 59%, 43% 59%, 38% 56%, 35% 53%, 34% 56%, 31% 59%, 26% 60%, 21% 61%, 16% 58%, 13% 55%, 10% 52%, 10% 47%, 11% 42%, 13% 37%, 18% 36%, 23% 36%, 28% 37%, 32% 38%, 34% 41%, 36% 39%, 38% 35%, 42% 33%, 45% 31%, 50% 32%, 55% 34%, 57% 37% ); */
+        /* clip-path: polygon(66% 42%, 66% 42%, 66% 42%, 66% 42%, 72% 37%, 72% 37%, 72% 37%, 72% 37%, 79% 36%, 79% 36%, 79% 36%, 79% 36%, 87% 40%, 87% 40%, 87% 40%, 87% 40%, 91% 47%, 91% 47%, 91% 47%, 91% 47%, 90% 55%, 90% 55%, 90% 55%, 90% 55%, 82% 63%, 82% 63%, 82% 63%, 82% 63%, 73% 63%, 73% 63%, 73% 63%, 73% 63%, 66% 57%, 66% 57%, 66% 57%, 66% 57%, 63% 62%, 63% 62%, 63% 62%, 63% 62%, 55% 66%, 55% 66%, 55% 66%, 55% 66%, 48% 67%, 48% 67%, 48% 67%, 48% 67%, 43% 63%, 43% 63%, 43% 63%, 43% 63%, 39% 59%, 39% 59%, 39% 59%, 39% 59%, 37% 56%, 37% 56%, 37% 56%, 37% 56%, 34% 60%, 34% 60%, 34% 60%, 34% 60%, 31% 64%, 31% 64%, 31% 64%, 31% 64%, 27% 67%, 27% 67%, 27% 67%, 27% 67%, 20% 66%, 20% 66%, 20% 66%, 20% 66%, 14% 63%, 14% 63%, 14% 63%, 14% 63%, 8% 57%, 8% 57%, 8% 57%, 8% 57%, 7% 50%, 7% 50%, 7% 50%, 7% 50%, 7% 44%, 7% 44%, 7% 44%, 7% 44%, 9% 40%, 9% 40%, 9% 40%, 9% 40%, 12% 35%, 12% 35%, 12% 35%, 12% 35%, 17% 36%, 17% 36%, 17% 36%, 17% 36%, 23% 38%, 23% 38%, 23% 38%, 23% 38%, 27% 41%, 27% 41%, 27% 41%, 27% 41%, 31% 44%, 31% 44%, 31% 44%, 31% 44%, 34% 39%, 34% 39%, 34% 39%, 34% 39%, 37% 34%, 37% 34%, 37% 34%, 37% 34%, 41% 29%, 41% 29%, 41% 29%, 41% 29%, 47% 29%, 47% 29%, 47% 29%, 47% 29%, 54% 32%, 54% 32%, 54% 32%, 54% 32%, 60% 36%, 60% 36%, 60% 36%, 60% 36%); */
+        /* clip-path: polygon(8% 38%, 58% 38%, 58% 38%,58% 38%, 63% 32%, 63% 32%, 63% 32%, 63% 32%, 73% 30%, 73% 30%, 73% 30%, 73% 30%, 83% 35%, 83% 35%, 83% 35%, 83% 35%, 88% 47%, 88% 47%, 88% 47%, 88% 47%, 84% 58%, 84% 58%, 84% 58%, 84% 58%, 66% 60%, 66% 60%, 66% 60%, 66% 60%, 58% 56%, 58% 56%, 58% 56%, 58% 56%, 53% 61%, 53% 61%, 53% 61%, 53% 61%, 45% 64%, 45% 64%, 45% 64%, 45% 64%, 35% 65%, 35% 65%, 35% 65%, 35% 65%, 28% 58%, 28% 58%, 28% 58%, 28% 58%, 25% 61%, 25% 61%, 25% 61%, 25% 61%, 16% 63%, 16% 63%, 16% 63%, 16% 63%, 8% 59%, 8% 59%, 8% 59%, 8% 59%, 3% 49%, 3% 49%, 3% 49%, 3% 49%, 6% 35%, 6% 35%, 6% 35%, 6% 35%, 16% 28%, 16% 28%, 16% 28%, 16% 28%, 27% 32%, 27% 32%, 27% 32%, 27% 32%, 32% 36%, 32% 36%, 32% 36%, 32% 36%, 36% 27%, 36% 27%, 36% 27%, 36% 27%, 45% 22%, 45% 22%, 45% 22%, 45% 22%, 58% 24%, 58% 24%, 58% 24%, 58% 24%); */
+        clip-path: circle(11.1% at 47% 52%);
+        /* clip-path: polygon( 62% 37%,62% 37%,62% 37%, 71% 33%, 71% 33%, 71% 33%, 79% 35%, 79% 35%, 79% 35%, 85% 42%, 85% 42%, 85% 42%, 85% 51%, 85% 51%, 85% 51%, 78% 60%, 78% 60%, 78% 60%, 67% 60%, 67% 60%, 67% 60%, 61% 55%, 61% 55%, 61% 55%, 55% 57%, 55% 57%, 55% 57%, 49% 63%, 49% 63%, 49% 63%, 44% 64%, 44% 64%, 44% 64%, 38% 65%, 38% 65%, 38% 65%, 33% 63%, 33% 63%, 33% 63%, 29% 59%, 29% 59%, 29% 59%, 26% 56%, 26% 56%, 26% 56%, 22% 60%, 22% 60%, 22% 60%, 18% 64%, 18% 64%, 18% 64%, 12% 66%, 12% 66%, 12% 66%, 4% 63%, 4% 63%, 4% 63%, 1% 55%, 1% 55%, 1% 55%, 0% 48%, 0% 48%, 0% 48%, 1% 43%, 1% 43%, 1% 43%, 4% 39%, 4% 39%, 4% 39%, 8% 37%, 8% 37%, 8% 37%, 15% 36%, 15% 36%, 15% 36%, 20% 40%, 20% 40%, 20% 40%, 23% 43%, 23% 43%, 23% 43%, 25% 47%, 25% 47%, 25% 47%, 27% 42%, 27% 42%, 27% 42%, 31% 35%, 31% 35%, 31% 35%, 37% 34%, 37% 34%, 37% 34%, 43% 33%, 43% 33%, 43% 33%, 47% 35%, 47% 35%, 47% 35%, 51% 37%, 51% 37%, 51% 37%, 55% 40%, 55% 40%, 55% 40%, 57% 44%, 57% 44%, 57% 44%, 59% 49%, 59% 49%, 59% 49%); */        
+        animation: sk 400ms ease-in 1ms infinite ;
+
+        background: aqua;
+    }
+
+
+
+/*---------Rain In general-----------------------*/    
+
+.rain{
+    clip-path: ellipse(2% 8% at 50% 50%);
+    /* background: rgb(255, 255, 255); */
+    height: 100%;
+    z-index: 999;
+    /* position: absolute; */
+    animation: fallRai 400ms ease-out  infinite;
+    /* overflow: visible; */
+}
+
+
+.sky{
+    background: transparent;
+    border: none;
+}
+
+.sub-sk{
+    background: transparent;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70%;
+
+}
+
+/*---Animation------*/
+/*sky*/
+@keyframes sk{
+    from,
+    50%{
+        transform: scale(1.3);
+
+
+    }
+    60%{
+        transform: scale(1.2);
+
+
+    }
+    80%{
+        transform: scale(1.2);
+
+
+    }
+    to{
+        transform: scale(1.3);
+
+
+    }
+}
+
+
+/*Rain animation*/
+@keyframes fallRai{
+    from,
+    50%{
+        transform: translateY(20px) ;
+        
+        background: papayawhip;
+        
+
+
+    }
+    60%{
+        transform: translateY(30px) ;
+        
+        
+
+
+    }
+    65%{
+        transform:  translateY(40px) ;
+
+
+
+    }
+    70%{
+        transform:  translateY(160px) ;
+        
+        
+    }
+    80%{
+        transform:  translateY(200px) ;
+        
+        
+    }
+    85%{
+        transform:  translateY(100px) ;
+        
+        
+    }
+    90%{
+        transform:  translateY(50px) ;
+        
+        
+    }
+    95%{
+        transform:  translateY(20px) ;
+        
+        
+    }
+    to{
+        transform: translateY(10px) ;
+        
+        
+    }
+}
+
+/*
+.rain{
+    animation: fallRai 400ms ease-in-out infinite;
+}*/
+/*
+@keyframes rai136{
+    from,
+    50%{
+        transform: translateY(-100px) translateX(10px);
+        
+         
+
+    }
+    60%{
+        transform: translateY(-60px) translateX(20px);
+
+
+    }
+    65%{
+        transform:  translateY(-50px) translateX(40px);
+
+
+    }
+    70%{
+        transform:  translateY(10px) translateX(60px);
+        
+        
+    }
+    80%{
+        transform:  translateY(50px) translateX(100px);
+        
+        
+    }
+    85%{
+        transform:  translateY(180px) translateX(150px);
+        
+        
+    }
+    90%{
+        transform:  translateY(200px) translateX(200px);
+        
+        
+    }
+    95%{
+        transform:  translateY(300px) translateX(100px);
+        
+        
+    }
+    to{
+        transform: translateY(400px) translateX(10px);
+        
+        
+    }
+}*/
+/*
+@keyframes rai136Right{
+    from,
+    50%{
+        transform: translateX(10px);
+        
+    
+
+    }
+    60%{
+        transform: translateX(20px);
+
+
+    }
+    65%{
+        transform:  translateX(40px);
+
+
+    }
+    70%{
+        transform:  translateX(60px);
+        
+        
+    }
+    80%{
+        transform:  translateX(100px);
+        
+        
+    }
+    85%{
+        transform:  translateX(150px);
+        
+        
+    }
+    90%{
+        transform:  translateX(200px);
+        
+        
+    }
+    95%{
+        transform:  translateX(100px);
+        
+        
+    }
+    to{
+        transform: translateX(10px);
+        
+        
+    }
+}*/
+/*
+@keyframes rai136Fall{
+    from,
+    50%{
+        transform: translateY(-100px) ;
+        
+
+    }
+    60%{
+        transform: translateY(-60px) ;
+
+
+    }
+    65%{
+        transform:  translateY(-50px) ;
+
+
+    }
+    70%{
+        transform:  translateY(10px) ;
+        
+        
+    }
+    80%{
+        transform:  translateY(50px) ;
+        
+        
+    }
+    85%{
+        transform:  translateY(180px) ;
+        
+        
+    }
+    90%{
+        transform:  translateY(200px) ;
+        
+        
+    }
+    95%{
+        transform:  translateY(300px) ;
+        
+        
+    }
+    to{
+        transform: translateY(400px) ;
+        
+        
+    }
+}*/
+
+/*animation sky 1,3and 6*/
+.sub-sk1 .sk1, .sub-sk1 .sk2, .sub-sk1 .sk3,
+.sub-sk3 .sk1, .sub-sk3 .sk2, .sub-sk3 .sk3,
+.sub-sk6 .sk1, .sub-sk6 .sk2, .sub-sk6 .sk3{
+    animation: sk1 4s ease-in-out 0.1ms infinite;
+}
+@keyframes sk1{
+    from,
+    50%{
+        transform: scale(1.3) translateX(10px);
+        /* background:  rgb(209, 225, 237); */
+}
+    60%{
+        transform: scale(1.2) translateX(20px);
+        /* background:  rgb(209, 225, 237); */
+
+
+
+    }
+    65%{
+        transform: scale(1.2) translateX(40px);
+        background: transparent;
+
+
+
+    }
+    70%{
+        transform: scale(1.2) translateX(60px);
+        background:  rgb(176, 180, 186);
+
+
+
+    }
+    75%{
+        transform: scale(1.2) translateX(100px);
+        background:  rgb(209, 225, 237);
+
+
+
+    }
+    80%{
+        transform: scale(1.2) translateX(150px);
+        background:  rgb(209, 225, 237);
+
+
+
+    }
+    85%{
+        transform: scale(1.2) translateX(200px);
+        background:  rgb(209, 225, 237);
+
+
+
+    }
+    90%{
+        transform: scale(1.2) translateX(100px);
+        background:  rgb(209, 225, 237);
+
+
+
+    }
+    95%{
+        transform: scale(1.2) translateX(50px);
+        background:  rgb(115, 116, 117);
+
+
+
+    }
+    to{
+        transform: scale(1.3) translateX(10px);
+        background:  rgb(204, 212, 217);
+
+
+
+    }
+}/*
+.rain1, .rain6, .rain3{
+    animation: rai136Fall rai136Right,1s 400ms,infinite;
+     ;
+}*/
+
+
+
+
+
+/*shadow*/
+.sk1, .sk2 ,.sk3{
+    box-shadow: inset 10px 0 50px rgb(21, 29, 117);       
+    z-index: 1;
+
+}
+
+
+.rain{
+    background: rgb(50, 137, 213);
+}
+
+.sun{
+    width:8em;
+    background: rgb(241, 206, 10);
+    height: 8em;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    border-radius: 50%;
+    box-shadow: inset 10px 0px 10px rgb(236, 236, 206);
+    z-index: 1;
+}
+
+
+footer{
+    background: white;
+    position: absolute;
+    top: 50em;
+    width: 97%;
+    box-shadow: inset 5px 0 10px aqua;
+}
+
+footer p{
+    padding-left: 1em;
+}
